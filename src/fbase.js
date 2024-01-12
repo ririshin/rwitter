@@ -13,3 +13,4 @@ const firebaseConfig = {
 const app = firebase(firebaseConfig);
 
 export const authService = getAuth();
+export const firebaseInstacne = firebase;
